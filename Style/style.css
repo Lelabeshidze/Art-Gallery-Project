@@ -224,6 +224,7 @@ img{
     color: black;
     line-height: 1.5em;
     text-align: center;
+    font-weight: bold;
 }
 .flex {
     display: flex;
@@ -254,4 +255,44 @@ img{
     flex-direction: column;
     align-items: center;
     vertical-align: middle;
+}
+.exhibition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+}
+.exhibition h1{
+    font-size: 24px;
+    color: #000000;
+}
+.exhibition p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Mono', sans-serif;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.7em;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    width: 50%;
+}
+.carousel1{
+    width:100%;
+}
+.img {
+    width:  400px;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.imgtext {
+ width: 90%;
+}
+.imgtext h2 {
+    color: #000000;
+}
+.imgtext p {
+    color: rgb(129, 122, 122);
 }
