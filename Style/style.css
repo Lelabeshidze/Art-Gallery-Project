@@ -43,6 +43,7 @@ body {
 .container {
     max-width: 100%;
     width: 100%;
+    
 }
 .headerlinks {
     display: flex;
@@ -282,17 +283,43 @@ img{
     width:100%;
 }
 .img {
-    width:  400px;
-    height: 400px;
+    width:  300px;
+    height: 300px;
     object-fit: cover;
     overflow: hidden;
 }
 .imgtext {
  width: 90%;
+ margin-top:20px ;
 }
 .imgtext h2 {
     color: #000000;
 }
 .imgtext p {
     color: rgb(129, 122, 122);
+}
+.characters {
+    display: flex;
+}
+
+.characters >div {
+    margin: 25px;
+}
+.characters  h1 {
+    padding-top: 10px;
+    text-align: center;
+    color: #000000;
+}
+.characters  p {
+    padding-top: 10px;
+    text-align: center;
+    color: #000000;
+}
+.charactershover:hover {
+    filter: grayscale(100%);
+    transform: translate(0, -20px);
+    transition: ease-in 0.3s;
+}
+.charactersinfo {
+  width: 90%;
 }
